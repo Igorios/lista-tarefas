@@ -13,10 +13,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background: no-repeat url("../img/fundo-site.jpg");
+#body {
+    background-color: #d8d7ff;
     height: 100vh;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 button {
@@ -61,6 +64,7 @@ input, select {
     padding: 2rem;
     border-radius: 20px;
     background-color: #cdffe5c6;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .container header {

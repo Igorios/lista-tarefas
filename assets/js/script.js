@@ -1,10 +1,22 @@
 
+window.onload = function() {
+    carregarImagem();
+}
+
+
 const todoForm = document.querySelector("#todo-form");
 const todoInput = document.querySelector("#todo-input");
 const todoList = document.querySelector("#todo-list");
 const editForm = document.querySelector("#edit-form");
 const editInput = document.querySelector("#edit-input");
 const cancelEditBtn = document.querySelector("#cancel-edit-btn");
+
+let body = document.querySelector("#body");
+
+function carregarImagem() {
+    const urlImg = "https://source.unsplash.com/1400x1000/?landscape";
+    document.body.style.backgroundImage = `url(${urlImg})`;
+}
 
 let oldInputValue;
 

@@ -1,4 +1,8 @@
-// Seleção de elementos
+window.onload = function() {
+    carregarImagem();
+}
+
+
 const todoForm = document.querySelector("#todo-form");
 const todoInput = document.querySelector("#todo-input");
 const todoList = document.querySelector("#todo-list");
@@ -8,6 +12,11 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 const searchInput = document.querySelector("#search-input");
 const eraseBtn = document.querySelector("#erase-button");
 const filterBtn = document.querySelector("#filter-select");
+
+function carregarImagem() {
+    const urlImg = "https://source.unsplash.com/1400x1000/?landscape";
+    document.body.style.backgroundImage = `url(${urlImg})`;
+}
 
 let oldInputValue;
 

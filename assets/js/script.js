@@ -14,7 +14,7 @@ const eraseBtn = document.querySelector("#erase-button");
 const filterBtn = document.querySelector("#filter-select");
 
 function carregarImagem() {
-    const urlImg = "https://source.unsplash.com/1400x1000/?landscape";
+    const urlImg = "https://source.unsplash.com/980x850/?landscape";
     document.body.style.backgroundImage = `url(${urlImg})`;
 }
 
